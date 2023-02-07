@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.first-nav i{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.first-nav{
+    background-image:linear-gradient(rgba(140, 97, 97, 0.317),rgba(255, 0, 0, 0.122))
+    
+}
+.first-nav h1 i{
+   font-size: 17px;
+   font-weight: bolder;
+   font-style: italic;
+   color: black;
+}
+
+
+.first-nav span input{
+    text-align: center;
+    font-weight: bold;
+    background-color: silver;
+    font-size: 12px;
+}
+.first-nav  input{
+  border: 3px solid silver;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.first-nav span {
+    font-weight: bolder;
+    font-size: 14px;
+    
+}
+.secound-nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 50px;
+    background-image:linear-gradient(rgba(140, 97, 97, 0.317),rgba(255, 0, 0, 0.122))
+}
+.secound-nav a{
+    padding: 10px;
+    text-decoration: none;
+    color:silver;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+}
+.secound-nav h1{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}
+.third-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-image:linear-gradient(rgba(140, 97, 97, 0.317),rgba(255, 0, 0, 0.122))
+   
+}
+.third-nav a{
+    padding: 10px;
+    text-decoration: none;
+    color:silver;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 5px;
+}
+.third-nav h1{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color:black;
+}
+.main-slider{
+    background-image: url('Men_SS23Campaign_Green_Desert_HP_DI3.webp');
+}
